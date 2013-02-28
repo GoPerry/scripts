@@ -1,0 +1,131 @@
+nwei@hymost.com      | NULL         | gerrit:yuanwei
+1000000    | yuanwei@hymost.com      | NULL         | username:yuanwei
+1000001    | linpeng@hymost.com      | NULL         | gerrit:linpeng
+1000001    | linpeng@hymost.com      | NULL         | username:linpeng
+1000005    | huxianghong@hymost.com  | NULL         | gerrit:huxianghong
+1000004    | luzeqiang@hymost.com    | NULL         | gerrit:luzeqiang
+1000004    | luzeqiang@hymost.com    | NULL         | username:luzeqiang
+1000006    | ganxiao@hymost.com      | NULL         | gerrit:ganxiao
+1000003    | suhongying@hymost.com   | NULL         |
+gerrit:suhongying
+1000003    | suhongying@hymost.com   | NULL         |
+username:suhongying
+1000002    | xuguilian@hymost.com    | NULL         |
+gerrit:xuguilian
+1000002    | xuguilian@hymost.com    | NULL         |
+username:xuguilian
+1000006    | ganxiao@hymost.com      | NULL         |
+username:ganxiao
+1000005    | huxianghong@hymost.com  | EwVPyT/YzjwN |
+username:huxianghong
+1000007    | lijinjun@hymost.com     | NULL         |
+gerrit:lijinjun
+1000007    | lijinjun@hymost.com     | NULL         |
+username:lijinjun
+1000009    | wangronghua@hymost.com  | NULL         |
+gerrit:wangronghua
+1000009    | wangronghua@hymost.com  | NULL         |
+username:wangronghua
+1000010    | zouyangyang@hymost.com  | NULL         |
+gerrit:zouyangyang
+1000010    | zouyangyang@hymost.com  | NULL         |
+username:zouyangyang
+1000011    | jiangzhiyu@hymost.com   | NULL         |
+gerrit:jiangzhiyu
+1000011    | jiangzhiyu@hymost.com   | NULL         |
+username:jiangzhiyu
+1000012    | liuxiufang@hymost.com   | NULL         |
+gerrit:liuxiufang
+1000012    | liuxiufang@hymost.com   | NULL         |
+username:liuxiufang
+1000013    | lijiangang@hymost.com   | NULL         |
+gerrit:lijiangang
+1000013    | lijiangang@hymost.com   | NULL         |
+username:lijiangang
+1000014    | qinchao@hymost.com      | NULL
+| gerrit:qinchao
+1000014    | qinchao@hymost.com      | NULL
+| username:qinchao
+1000015    | weitao@hymost.com       | NULL
+| gerrit:weitao
+1000015    | weitao@hymost.com       | NULL
+| username:weitao
+1000016    | caojun@hymost.com       | NULL
+| gerrit:caojun
+1000016    | caojun@hymost.com       | NULL
+| username:caojun
+1000017    | zhukunqiu@hymost.com    | NULL
+| gerrit:zhukunqiu
+1000017    | zhukunqiu@hymost.com    | NULL
+| username:zhukunqiu
+1000018    | jiqi@hymost.com         | NULL
+| gerrit:jiqi
+1000018    | jiqi@hymost.com         | NULL
+| username:jiqi
+1000019    | dingdong@hymost.com     |
+NULL         | gerrit:dingdong
+1000019    | dingdong@hymost.com     |
+NULL         | username:dingdong
+1000020    | guoqingbin@hymost.com   |
+NULL         | gerrit:guoqingbin
+1000020    | guoqingbin@hymost.com   |
+iO/JRMoxgyNl | username:guoqingbin
+1000021    | wangyifeng@hymost.com   |
+NULL         | gerrit:wangyifeng
+1000021    | wangyifeng@hymost.com
+| NULL         | username:wangyifeng
+1000022    | liuliusheng@hymost.com
+| NULL         | gerrit:liuliusheng
+1000022    | liuliusheng@hymost.com
+| NULL         |
+username:liuliusheng
+1000024    | lizongwei@hymost.com
+| NULL         | gerrit:lizongwei
+1000024    | lizongwei@hymost.com
+| NULL         |
+username:lizongwei
+1000025    | qiuxiya@hymost.com
+| NULL         | gerrit:qiuxiya
+1000025    | qiuxiya@hymost.com
+| NULL         |
+username:qiuxiya
+1000027    |
+chenbing@hymost.com     | NULL
+| gerrit:chenbing
+1000027    |
+chenbing@hymost.com     |
+NULL         |
+username:chenbing
+1000026    |
+yuyingjie@hymost.com    |
+NULL         |
+gerrit:yuyingjie
+1000026    |
+yuyingjie@hymost.com    |
+NULL         |
+username:yuyingjie
+1000028    |
+zhangjian@hymost.com    |
+NULL         |
+gerrit:zhangjian
+1000028    |
+zhangjian@hymost.com    |
+NULL         |
+username:zhangjian
+1000023    |
+zhoushaoqing@hymost.com
+| NULL         |
+gerrit:zhoushaoqing
+1000023    |
+zhoushaoqing@hymost.com
+| NULL         |
+username:zhoushaoqing
+1000008    |
+liyingde@hymost.com
+| NULL         |
+gerrit:liyingde
+1000008    |
+liyingde@hymost.com
+| NULL         |
+username:liyingde
+(58 rows; 3 ms)a

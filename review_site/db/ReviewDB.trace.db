@@ -1,0 +1,196 @@
+08-23 12:04:39 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "SCHEMA_VERSION" not found; SQL statement:
+SELECT T.version_nbr,T.singleton FROM schema_version T WHERE T.singleton=? [42102-147]
+08-24 13:17:57 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "EXTERNAL_IDS" not found; SQL statement:
+select * from external_ids; [42102-147]
+08-24 14:47:08 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "ACCOUNT_EXTERNAL_IDS[*] SET EMAIL_ADDRESS='lijinjun@hymost.com' WHERE ACCOUNT_ID=1000007; "; expected "ALTER, ANALYZE, {"; SQL statement:
+ACCOUNT_EXTERNAL_IDS set EMAIL_ADDRESS='lijinjun@hymost.com' where ACCOUNT_ID=1000007; [42001-147]
+08-24 14:48:27 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "ACCOUNT_EXTERNAL_IDS[*] SET EMAIL_ADDRESS='lijinjun@hymost.com' WHERE ACCOUNT_ID=1000007; "; expected "ALTER, ANALYZE, {"; SQL statement:
+ACCOUNT_EXTERNAL_IDS set EMAIL_ADDRESS='lijinjun@hymost.com' where ACCOUNT_ID=1000007; [42001-147]
+08-24 14:50:37 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "ACCOUNT_EXTERNAL_IDS[*] SET EMAIL_ADDRESS='wangronghua@hymost.com' WHERE ACCOUNT_ID=1000009; "; expected "ALTER, ANALYZE, {"; SQL statement:
+ACCOUNT_EXTERNAL_IDS set EMAIL_ADDRESS='wangronghua@hymost.com' where ACCOUNT_ID=1000009; [42001-147]
+11-16 10:16:02 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-147]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:327)
+	at org.h2.message.DbException.get(DbException.java:167)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.message.DbException.get(DbException.java:133)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1333)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1308)
+	at org.h2.jdbc.JdbcConnection.getAutoCommit(JdbcConnection.java:380)
+	at org.apache.commons.dbcp.DelegatingConnection.getAutoCommit(DelegatingConnection.java:337)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.activateObject(PoolableConnectionFactory.java:703)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1174)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at com.google.gwtorm.jdbc.Database.newConnection(Database.java:127)
+	at com.google.gwtorm.jdbc.JdbcSchema.<init>(JdbcSchema.java:40)
+	at com.google.gerrit.reviewdb.server.ReviewDb_Schema_GwtOrm$$28.<init>(Unknown Source)
+	at com.google.gerrit.reviewdb.server.ReviewDb_Schema_GwtOrm$$28_Factory_GwtOrm$$29.open(Unknown Source)
+	at com.google.gwtorm.jdbc.Database.open(Database.java:121)
+	at com.google.gerrit.server.git.ReloadSubmitQueueOp.run(ReloadSubmitQueueOp.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:206)
+	at com.google.gerrit.server.git.WorkQueue$Task.run(WorkQueue.java:333)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+11-16 10:16:15 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-147]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:327)
+	at org.h2.message.DbException.get(DbException.java:167)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.message.DbException.get(DbException.java:133)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1333)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1308)
+	at org.h2.jdbc.JdbcConnection.getAutoCommit(JdbcConnection.java:380)
+	at org.apache.commons.dbcp.DelegatingConnection.getAutoCommit(DelegatingConnection.java:337)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.activateObject(PoolableConnectionFactory.java:703)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1174)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at com.google.gwtorm.jdbc.Database.newConnection(Database.java:127)
+	at com.google.gwtorm.jdbc.JdbcSchema.<init>(JdbcSchema.java:40)
+	at com.google.gerrit.reviewdb.server.ReviewDb_Schema_GwtOrm$$28.<init>(Unknown Source)
+	at com.google.gerrit.reviewdb.server.ReviewDb_Schema_GwtOrm$$28_Factory_GwtOrm$$29.open(Unknown Source)
+	at com.google.gwtorm.jdbc.Database.open(Database.java:121)
+	at com.google.gerrit.server.git.ReloadSubmitQueueOp.run(ReloadSubmitQueueOp.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:206)
+	at com.google.gerrit.server.git.WorkQueue$Task.run(WorkQueue.java:333)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+11-16 10:16:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-147]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:327)
+	at org.h2.message.DbException.get(DbException.java:167)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.message.DbException.get(DbException.java:133)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1333)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1308)
+	at org.h2.jdbc.JdbcConnection.getAutoCommit(JdbcConnection.java:380)
+	at org.apache.commons.dbcp.DelegatingConnection.getAutoCommit(DelegatingConnection.java:337)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.activateObject(PoolableConnectionFactory.java:703)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1174)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at com.google.gwtorm.jdbc.Database.newConnection(Database.java:127)
+	at com.google.gwtorm.jdbc.JdbcSchema.<init>(JdbcSchema.java:40)
+	at com.google.gerrit.reviewdb.server.ReviewDb_Schema_GwtOrm$$28.<init>(Unknown Source)
+	at com.google.gerrit.reviewdb.server.ReviewDb_Schema_GwtOrm$$28_Factory_GwtOrm$$29.open(Unknown Source)
+	at com.google.gwtorm.jdbc.Database.open(Database.java:121)
+	at com.google.gerrit.server.git.ReloadSubmitQueueOp.run(ReloadSubmitQueueOp.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:206)
+	at com.google.gerrit.server.git.WorkQueue$Task.run(WorkQueue.java:333)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+11-16 10:16:15 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-147]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:327)
+	at org.h2.message.DbException.get(DbException.java:167)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.message.DbException.get(DbException.java:133)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1333)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1308)
+	at org.h2.jdbc.JdbcConnection.getAutoCommit(JdbcConnection.java:380)
+	at org.apache.commons.dbcp.DelegatingConnection.getAutoCommit(DelegatingConnection.java:337)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.activateObject(PoolableConnectionFactory.java:703)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1174)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at com.google.gwtorm.jdbc.Database.newConnection(Database.java:127)
+	at com.google.gwtorm.jdbc.JdbcSchema.<init>(JdbcSchema.java:40)
+	at com.google.gerrit.reviewdb.server.ReviewDb_Schema_GwtOrm$$28.<init>(Unknown Source)
+	at com.google.gerrit.reviewdb.server.ReviewDb_Schema_GwtOrm$$28_Factory_GwtOrm$$29.open(Unknown Source)
+	at com.google.gwtorm.jdbc.Database.open(Database.java:121)
+	at com.google.gerrit.server.git.ReloadSubmitQueueOp.run(ReloadSubmitQueueOp.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:206)
+	at com.google.gerrit.server.git.WorkQueue$Task.run(WorkQueue.java:333)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+11-20 14:01:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: The object is already closed [90007-147]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:327)
+	at org.h2.message.DbException.get(DbException.java:167)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.message.DbException.get(DbException.java:133)
+	at org.h2.jdbc.JdbcResultSet.checkClosed(JdbcResultSet.java:2927)
+	at org.h2.jdbc.JdbcResultSet.next(JdbcResultSet.java:115)
+	at org.apache.commons.dbcp.DelegatingResultSet.next(DelegatingResultSet.java:207)
+	at org.apache.commons.dbcp.DelegatingResultSet.next(DelegatingResultSet.java:207)
+	at com.google.gwtorm.schema.sql.SqlDialect.nextLong(SqlDialect.java:162)
+	at com.google.gwtorm.jdbc.JdbcSchema.nextLong(JdbcSchema.java:195)
+	at com.google.gerrit.reviewdb.server.ReviewDb_Schema_GwtOrm$$28.nextChangeId(Unknown Source)
+	at com.google.gerrit.server.git.ReceiveCommits.createChange(ReceiveCommits.java:1061)
+	at com.google.gerrit.server.git.ReceiveCommits.createNewChanges(ReceiveCommits.java:1008)
+	at com.google.gerrit.server.git.ReceiveCommits.processCommands(ReceiveCommits.java:434)
+	at com.google.gerrit.server.git.AsyncReceiveCommits$Worker.run(AsyncReceiveCommits.java:90)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at com.google.gerrit.server.util.RequestScopePropagator$1.call(RequestScopePropagator.java:86)
+	at com.google.gerrit.server.util.ThreadLocalRequestScopePropagator$1.call(ThreadLocalRequestScopePropagator.java:58)
+	at com.google.gerrit.server.util.RequestScopePropagator$2.call(RequestScopePropagator.java:96)
+	at com.google.gerrit.server.util.RequestScopePropagator$3.run(RequestScopePropagator.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:206)
+	at com.google.gerrit.server.git.WorkQueue$Task.run(WorkQueue.java:333)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+12-05 16:37:25 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT "; expected "TOP, LIMIT, DISTINCT, ALL, *, NOT, EXISTS"; SQL statement:
+show table; [42001-147]
+12-05 16:38:20 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT "; expected "TOP, LIMIT, DISTINCT, ALL, *, NOT, EXISTS"; SQL statement:
+show database; [42001-147]
+12-05 16:38:29 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT "; expected "TOP, LIMIT, DISTINCT, ALL, *, NOT, EXISTS"; SQL statement:
+show databses
+; [42001-147]
+12-05 16:38:36 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "show databases[*]'
+;"; SQL statement:
+show databases'
+; [42000-147]
+12-05 16:39:04 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "USE[*] PUBLIC; "; expected "UPDATE, {"; SQL statement:
+use PUBLIC; [42001-147]
+12-05 16:39:13 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "USE[*] PUBLIC
+; "; expected "UPDATE, {"; SQL statement:
+use PUBLIC
+; [42001-147]
+12-05 16:39:43 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "USE[*] INFORMATION_SCHEMA; "; expected "UPDATE, {"; SQL statement:
+use INFORMATION_SCHEMA; [42001-147]
+02-27 16:33:44 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM CHANGES WHERE OWNER_ACCOUNT_ID=1000000 AND SUBJECT=;[*] "; expected "ALL, ANY, SOME, SELECT, FROM"; SQL statement:
+select * from changes where OWNER_ACCOUNT_ID=1000000 and subject=; [42001-147]
+02-27 16:34:34 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DELECT[*] FROM CHANGES WHERE CHANGE_KEY='I95a76d1a1aeb0dd7c0a3817f48ab632d63083b2d'
+; "; expected "DELETE, DROP, DECLARE, DEALLOCATE, {"; SQL statement:
+delect from changes where change_key='I95a76d1a1aeb0dd7c0a3817f48ab632d63083b2d'
+; [42001-147]

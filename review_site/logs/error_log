@@ -1,0 +1,36 @@
+[2013-02-28 11:12:47,218] INFO  com.google.gerrit.pgm.Daemon : caught shutdown, cleaning up
+[2013-02-28 11:12:47,219] INFO  org.eclipse.jetty.util.log : Graceful shutdown SelectChannelConnector@127.0.0.1:8080
+[2013-02-28 11:12:47,247] INFO  org.eclipse.jetty.util.log : Graceful shutdown ServletContextHandler@7a04c4aa@7a04c4aa/,file:/home/git/.gerritcodereview/tmp/gerrit_1399805449798115212_app/gerrit_war/
+[2013-02-28 11:12:48,308] INFO  com.google.gerrit.sshd.SshDaemon : Stopped Gerrit SSHD
+[2013-02-28 11:13:03,687] INFO  com.google.gerrit.server.git.PushReplication : Empty /home/git/review_site/etc/replication.config; not replicating
+[2013-02-28 11:13:04,427] WARN  com.google.gerrit.sshd.SshDaemon : Disabling cipher aes192-cbc: Illegal key size; try installing unlimited cryptography extension
+[2013-02-28 11:13:04,427] WARN  com.google.gerrit.sshd.SshDaemon : Disabling cipher aes256-cbc: Illegal key size; try installing unlimited cryptography extension
+[2013-02-28 11:13:04,751] INFO  com.google.gerrit.ehcache.EhcachePoolImpl : Enabling disk cache /home/git/review_site/cache
+[2013-02-28 11:13:04,984] INFO  com.google.gerrit.sshd.SshDaemon : Started Gerrit SSHD on *:29418
+[2013-02-28 11:13:04,985] INFO  org.eclipse.jetty.util.log : jetty-7.2.1.v20101111
+[2013-02-28 11:13:05,203] INFO  org.eclipse.jetty.util.log : Started SelectChannelConnector@127.0.0.1:8080
+[2013-02-28 11:13:05,205] INFO  com.google.gerrit.pgm.Daemon : Gerrit Code Review 2.4.2 ready
+[2013-02-28 16:45:24,240] ERROR com.google.gerrit.server.git.LocalDiskRepositoryManager : Cannot update description for 8x25q/platform/external/wlan_tool
+org.eclipse.jgit.errors.RepositoryNotFoundException: repository not found: Cannot open repository 8x25q/platform/external/wlan_tool
+	at com.google.gerrit.server.git.LocalDiskRepositoryManager.openRepository(LocalDiskRepositoryManager.java:132)
+	at com.google.gerrit.server.git.LocalDiskRepositoryManager.setProjectDescription(LocalDiskRepositoryManager.java:233)
+	at com.google.gerrit.server.project.CreateProject.createProjectConfig(CreateProject.java:187)
+	at com.google.gerrit.server.project.CreateProject.createProject(CreateProject.java:107)
+	at com.google.gerrit.sshd.commands.CreateProjectCommand$1.run(CreateProjectCommand.java:142)
+	at com.google.gerrit.sshd.BaseCommand$TaskThunk.run(BaseCommand.java:403)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:206)
+	at com.google.gerrit.server.git.WorkQueue$Task.run(WorkQueue.java:333)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.eclipse.jgit.errors.RepositoryNotFoundException: repository not found: /home/git/server/8x25q/platform/external/wlan_tool
+	at org.eclipse.jgit.lib.RepositoryCache$FileKey.open(RepositoryCache.java:322)
+	at org.eclipse.jgit.lib.RepositoryCache.openRepository(RepositoryCache.java:171)
+	at org.eclipse.jgit.lib.RepositoryCache.open(RepositoryCache.java:106)
+	at org.eclipse.jgit.lib.RepositoryCache.open(RepositoryCache.java:81)
+	at com.google.gerrit.server.git.LocalDiskRepositoryManager.openRepository(LocalDiskRepositoryManager.java:129)
+	... 14 more

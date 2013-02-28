@@ -1,0 +1,132 @@
+[2013-02-28 09:34:35,875 +0800] 14f47486 zouyangyang a/1000010 LOGIN FROM 192.168.10.138
+[2013-02-28 09:34:36,157 +0800] 14f47486 zouyangyang a/1000010 'gerrit receive-pack --reviewer='\''yuyingjie'\'' '\''/7x27a/platform/packages/apps/Contacts'\''' 4ms 241ms 0
+[2013-02-28 09:34:36,160 +0800] 14f47486 zouyangyang a/1000010 LOGOUT
+[2013-02-28 09:47:51,568 +0800] 74e290d1 zouyangyang a/1000010 LOGIN FROM 192.168.10.138
+[2013-02-28 09:47:51,782 +0800] 74e290d1 zouyangyang a/1000010 'gerrit receive-pack --reviewer='\''yuyingjie'\'' '\''/7x27a/platform/packages/apps/Contacts'\''' 5ms 187ms 0
+[2013-02-28 09:47:51,791 +0800] 74e290d1 zouyangyang a/1000010 LOGOUT
+[2013-02-28 09:52:00,937 +0800] 54bc2cc0 lijinjun a/1000007 LOGIN FROM 192.168.10.186
+[2013-02-28 09:52:01,571 +0800] 54bc2cc0 lijinjun a/1000007 'gerrit receive-pack --reviewer='\''liuliusheng'\'' '\''/8x25/vendor/huiye/msm8x25_d8a_overlay'\''' 9ms 548ms 0
+[2013-02-28 09:52:01,572 +0800] 54bc2cc0 lijinjun a/1000007 LOGOUT
+[2013-02-28 10:33:44,759 +0800] f488c01f liyingde a/1000008 LOGIN FROM 192.168.10.96
+[2013-02-28 10:34:12,624 +0800] f488c01f liyingde a/1000008 'gerrit receive-pack --reviewer='\''jiqi'\'' '\''/7x27a/platform/frameworks/base'\''' 4ms 27817ms 0
+[2013-02-28 10:34:12,626 +0800] f488c01f liyingde a/1000008 LOGOUT
+[2013-02-28 10:51:27,126 +0800] 1481d401 zhoushaoqing a/1000023 LOGIN FROM 192.168.10.72
+[2013-02-28 10:51:28,267 +0800] 1481d401 zhoushaoqing a/1000023 'gerrit receive-pack --reviewer='\''lizongwei'\'' '\''/7x27a/platform/packages/apps/Gallery3D'\''' 5ms 1094ms 0
+[2013-02-28 10:51:28,269 +0800] 1481d401 zhoushaoqing a/1000023 LOGOUT
+[2013-02-28 11:03:27,938 +0800] b4648865 caojun a/1000016 LOGIN FROM 192.168.10.97
+[2013-02-28 11:03:28,437 +0800] b4648865 caojun a/1000016 'gerrit receive-pack --reviewer='\''wangyifeng'\'' '\''/8x25q/device/qcom/common'\''' 4ms 483ms 0
+[2013-02-28 11:03:28,439 +0800] b4648865 caojun a/1000016 LOGOUT
+[2013-02-28 11:03:30,146 +0800] 944b84d5 caojun a/1000016 LOGIN FROM 192.168.10.97
+[2013-02-28 11:03:34,110 +0800] 944b84d5 caojun a/1000016 'gerrit receive-pack --reviewer='\''wangyifeng'\'' '\''/8x25q/platform/frameworks/base'\''' 4ms 3946ms 0
+[2013-02-28 11:03:34,111 +0800] 944b84d5 caojun a/1000016 LOGOUT
+[2013-02-28 11:03:35,224 +0800] f94519c7 caojun a/1000016 LOGIN FROM 192.168.10.97
+[2013-02-28 11:03:36,087 +0800] f94519c7 caojun a/1000016 'gerrit receive-pack --reviewer='\''wangyifeng'\'' '\''/8x25q/platform/packages/apps/Contacts'\''' 5ms 845ms 0
+[2013-02-28 11:03:36,089 +0800] f94519c7 caojun a/1000016 LOGOUT
+[2013-02-28 11:03:36,279 +0800] d963756b caojun a/1000016 LOGIN FROM 192.168.10.97
+[2013-02-28 11:03:36,593 +0800] d963756b caojun a/1000016 'gerrit receive-pack --reviewer='\''wangyifeng'\'' '\''/8x25q/platform/vendor/qcom/proprietary/qcril'\''' 4ms 297ms 0
+[2013-02-28 11:03:36,595 +0800] d963756b caojun a/1000016 LOGOUT
+[2013-02-28 11:05:43,670 +0800] 397df115 caojun a/1000016 LOGIN FROM 192.168.10.97
+[2013-02-28 11:05:43,692 +0800] 397df115 caojun a/1000016 'gerrit receive-pack --reviewer='\''wangyifeng'\'' '\''/8x25q/platform/packages/apps/HY_DeviceInfo'\''' 5ms 3ms 1
+[2013-02-28 11:05:43,725 +0800] 397df115 caojun a/1000016 LOGOUT
+[2013-02-28 11:08:49,361 +0800] d9b5b50a caojun a/1000016 LOGIN FROM 192.168.10.97
+[2013-02-28 11:08:49,383 +0800] d9b5b50a caojun a/1000016 'gerrit receive-pack --reviewer='\''wangyifeng'\'' '\''/8x25q/platform/packages/apps/HY_DeviceInfo'\''' 4ms 3ms 1
+[2013-02-28 11:08:49,414 +0800] d9b5b50a caojun a/1000016 LOGOUT
+[2013-02-28 11:14:58,631 +0800] 90f39e51 caojun a/1000016 LOGIN FROM 192.168.10.97
+[2013-02-28 11:14:58,979 +0800] 90f39e51 caojun a/1000016 'gerrit receive-pack --reviewer='\''wangyifeng'\'' '\''/8x25q/platform/packages/apps/HY_DeviceInfo'\''' 44ms 271ms 0
+[2013-02-28 11:14:58,982 +0800] 90f39e51 caojun a/1000016 LOGOUT
+[2013-02-28 12:50:13,617 +0800] f018da8a jiangzhiyu a/1000011 LOGIN FROM 192.168.10.92
+[2013-02-28 12:50:14,392 +0800] f018da8a jiangzhiyu a/1000011 'gerrit receive-pack --reviewer='\''huxianghong'\'' '\''/8x25/device/qcom/msm8x25_d10_c966e'\''' 5ms 762ms 0
+[2013-02-28 12:50:14,399 +0800] f018da8a jiangzhiyu a/1000011 LOGOUT
+[2013-02-28 12:53:01,850 +0800] 504f667c jiangzhiyu a/1000011 LOGIN FROM 192.168.10.92
+[2013-02-28 12:53:02,047 +0800] 504f667c jiangzhiyu a/1000011 'gerrit receive-pack --reviewer='\''huxianghong'\'' --reviewer='\''xuguilian'\'' '\''/8x25/device/qcom/msm8x25_d10_c966e'\''' 4ms 185ms 0
+[2013-02-28 12:53:02,050 +0800] 504f667c jiangzhiyu a/1000011 LOGOUT
+[2013-02-28 12:55:39,569 +0800] 3036720d jiangzhiyu a/1000011 LOGIN FROM 192.168.10.92
+[2013-02-28 12:55:40,253 +0800] 3036720d jiangzhiyu a/1000011 'gerrit receive-pack --reviewer='\''huxianghong'\'' --reviewer='\''xuguilian'\'' '\''/8x25/device/qcom/msm8x25_d10_e656'\''' 18ms 658ms 0
+[2013-02-28 12:55:40,255 +0800] 3036720d jiangzhiyu a/1000011 LOGOUT
+[2013-02-28 13:15:13,657 +0800] 90807eb0 yuanwei a/1000000 LOGIN FROM 192.168.10.92
+[2013-02-28 13:15:15,539 +0800] 90807eb0 yuanwei a/1000000 'gerrit receive-pack '\''/8x25q/kernel/msm'\''' 5ms 1870ms 0
+[2013-02-28 13:15:15,541 +0800] 90807eb0 yuanwei a/1000000 LOGOUT
+[2013-02-28 14:10:01,190 +0800] b0cfc224 xuguilian a/1000002 LOGIN FROM 192.168.10.46
+[2013-02-28 14:10:01,953 +0800] b0cfc224 xuguilian a/1000002 'gerrit receive-pack --reviewer='\''yuanwei'\'' '\''/7x27a/device/qcom/msm7627a_d7_5210d'\''' 6ms 750ms 0
+[2013-02-28 14:10:01,955 +0800] b0cfc224 xuguilian a/1000002 LOGOUT
+[2013-02-28 14:15:21,442 +0800] 10bece8c liuliusheng a/1000022 LOGIN FROM 192.168.10.85
+[2013-02-28 14:15:22,424 +0800] 10bece8c liuliusheng a/1000022 'gerrit receive-pack --reviewer='\''yuyingjie'\'' '\''/7x27a/platform/vendor/huiye/msm7627a_d7_5210d_gd_overlay'\''' 5ms 937ms 0
+[2013-02-28 14:15:22,426 +0800] 10bece8c liuliusheng a/1000022 LOGOUT
+[2013-02-28 14:15:22,556 +0800] f0a3fa76 liuliusheng a/1000022 LOGIN FROM 192.168.10.85
+[2013-02-28 14:15:22,890 +0800] f0a3fa76 liuliusheng a/1000022 'gerrit receive-pack --reviewer='\''yuyingjie'\'' '\''/7x27a/platform/vendor/huiye/msm7627a_d7_5210d_overlay'\''' 5ms 315ms 0
+[2013-02-28 14:15:22,892 +0800] f0a3fa76 liuliusheng a/1000022 LOGOUT
+[2013-02-28 14:20:05,640 +0800] 500e8671 lijinjun a/1000007 LOGIN FROM 192.168.10.186
+[2013-02-28 14:20:06,618 +0800] 500e8671 lijinjun a/1000007 'gerrit receive-pack --reviewer='\''liuliusheng'\'' '\''/8x25/vendor/huiye/msm8x25_d8a_overlay'\''' 4ms 941ms 0
+[2013-02-28 14:20:06,620 +0800] 500e8671 lijinjun a/1000007 LOGOUT
+[2013-02-28 14:24:07,698 +0800] f0453a90 dingdong a/1000019 LOGIN FROM 192.168.10.63
+[2013-02-28 14:24:08,434 +0800] f0453a90 dingdong a/1000019 'gerrit receive-pack --reviewer='\''luzeqiang'\'' '\''/8x25/packages/apps/Mms'\''' 4ms 708ms 0
+[2013-02-28 14:24:08,437 +0800] f0453a90 dingdong a/1000019 LOGOUT
+[2013-02-28 14:30:09,997 +0800] 50e0c6b8 wangyifeng a/1000021 LOGIN FROM 192.168.10.103
+[2013-02-28 14:30:10,548 +0800] 50e0c6b8 wangyifeng a/1000021 'gerrit receive-pack --reviewer='\''yuyingjie'\'' '\''/7x27a/platform/frameworks/base'\''' 5ms 533ms 0
+[2013-02-28 14:30:10,549 +0800] 50e0c6b8 wangyifeng a/1000021 LOGOUT
+[2013-02-28 14:53:02,955 +0800] b0fa6272 zhoushaoqing a/1000023 LOGIN FROM 192.168.10.72
+[2013-02-28 14:53:03,617 +0800] b0fa6272 zhoushaoqing a/1000023 'gerrit receive-pack --reviewer='\''lizongwei'\'' '\''/8x25/packages/apps/Gallery2'\''' 5ms 602ms 0
+[2013-02-28 14:53:03,620 +0800] b0fa6272 zhoushaoqing a/1000023 LOGOUT
+[2013-02-28 15:30:00,698 +0800] 50b206ed lijinjun a/1000007 LOGIN FROM 192.168.10.186
+[2013-02-28 15:30:02,385 +0800] 50b206ed lijinjun a/1000007 'gerrit receive-pack --reviewer='\''liuliusheng'\'' '\''/8x25/frameworks/base'\''' 32ms 1639ms 0
+[2013-02-28 15:30:02,392 +0800] 50b206ed lijinjun a/1000007 LOGOUT
+[2013-02-28 15:48:47,384 +0800] 70962a44 yuyingjie a/1000026 LOGIN FROM 192.168.10.74
+[2013-02-28 15:48:48,650 +0800] 70962a44 yuyingjie a/1000026 'gerrit receive-pack --reviewer='\''yuyingjie'\'' '\''/7x27a/platform/system/core'\''' 5ms 1250ms 0
+[2013-02-28 15:48:48,743 +0800] 70962a44 yuyingjie a/1000026 LOGOUT
+[2013-02-28 15:53:52,543 +0800] 109b2e72 yuyingjie a/1000026 LOGIN FROM 192.168.10.74
+[2013-02-28 15:53:54,663 +0800] 109b2e72 yuyingjie a/1000026 'gerrit receive-pack --reviewer='\''yuyingjie'\'' '\''/8x25/system/core'\''' 5ms 2100ms 0
+[2013-02-28 15:53:54,864 +0800] 109b2e72 yuyingjie a/1000026 LOGOUT
+[2013-02-28 16:12:08,593 +0800] 307bd205 liuliusheng a/1000022 LOGIN FROM 192.168.10.85
+[2013-02-28 16:12:10,896 +0800] 307bd205 liuliusheng a/1000022 'gerrit receive-pack --reviewer='\''yuyingjie'\'' '\''/7x27a/platform/bootable/bootloader/lk'\''' 5ms 2266ms 0
+[2013-02-28 16:12:10,897 +0800] 307bd205 liuliusheng a/1000022 LOGOUT
+[2013-02-28 16:12:25,614 +0800] 90615e59 liuliusheng a/1000022 LOGIN FROM 192.168.10.85
+[2013-02-28 16:12:27,027 +0800] 90615e59 liuliusheng a/1000022 'gerrit receive-pack --reviewer='\''yuyingjie'\'' '\''/7x27a/platform/build'\''' 4ms 1397ms 0
+[2013-02-28 16:12:27,029 +0800] 90615e59 liuliusheng a/1000022 LOGOUT
+[2013-02-28 16:12:27,141 +0800] 6d43b1c1 liuliusheng a/1000022 LOGIN FROM 192.168.10.85
+[2013-02-28 16:12:28,704 +0800] 6d43b1c1 liuliusheng a/1000022 'gerrit receive-pack --reviewer='\''yuyingjie'\'' '\''/7x27a/device/qcom/msm7627a_a8_5211'\''' 2ms 1547ms 0
+[2013-02-28 16:12:28,706 +0800] 6d43b1c1 liuliusheng a/1000022 LOGOUT
+[2013-02-28 16:12:28,813 +0800] cd517d90 liuliusheng a/1000022 LOGIN FROM 192.168.10.85
+[2013-02-28 16:12:30,722 +0800] cd517d90 liuliusheng a/1000022 'gerrit receive-pack --reviewer='\''yuyingjie'\'' '\''/7x27a/platform/packages/thirdparty'\''' 5ms 1891ms 0
+[2013-02-28 16:12:30,724 +0800] cd517d90 liuliusheng a/1000022 LOGOUT
+[2013-02-28 16:29:19,604 +0800] ad9be992 liuliusheng a/1000022 LOGIN FROM 192.168.10.85
+[2013-02-28 16:29:19,813 +0800] ad9be992 liuliusheng a/1000022 'gerrit receive-pack --reviewer='\''yuyingjie'\'' '\''/7x27a/platform/bootable/bootloader/lk'\''' 2ms 192ms 0
+[2013-02-28 16:29:19,816 +0800] ad9be992 liuliusheng a/1000022 LOGOUT
+[2013-02-28 16:29:19,921 +0800] 0d8a3543 liuliusheng a/1000022 LOGIN FROM 192.168.10.85
+[2013-02-28 16:29:20,081 +0800] 0d8a3543 liuliusheng a/1000022 'gerrit receive-pack --reviewer='\''yuyingjie'\'' '\''/7x27a/device/qcom/msm7627a_a8_5211'\''' 4ms 143ms 0
+[2013-02-28 16:29:20,083 +0800] 0d8a3543 liuliusheng a/1000022 LOGOUT
+[2013-02-28 16:44:45,964 +0800] aded2902 yuanwei a/1000000 LOGIN FROM 192.168.10.91
+[2013-02-28 16:45:04,754 +0800] aded2902 yuanwei a/1000000 'gerrit create-project 8x25q/platform/external/wlan_tool' 28ms 18756ms killed
+[2013-02-28 16:45:04,773 +0800] aded2902 yuanwei a/1000000 LOGOUT
+[2013-02-28 16:46:53,412 +0800] cdf5fdcf yuanwei a/1000000 LOGIN FROM 192.168.10.91
+[2013-02-28 16:46:53,426 +0800] cdf5fdcf yuanwei a/1000000 'gerrit create-project 8x25q/platform/external/wlan_tool' 4ms 4ms 1
+[2013-02-28 16:46:53,458 +0800] cdf5fdcf yuanwei a/1000000 LOGOUT
+[2013-02-28 16:49:01,808 +0800] 6dce51a1 liuliusheng a/1000022 LOGIN FROM 192.168.10.85
+[2013-02-28 16:49:02,061 +0800] 6dce51a1 liuliusheng a/1000022 'gerrit receive-pack --reviewer='\''yuyingjie'\'' '\''/7x27a/platform/build'\''' 4ms 233ms 0
+[2013-02-28 16:49:02,067 +0800] 6dce51a1 liuliusheng a/1000022 LOGOUT
+[2013-02-28 16:49:34,540 +0800] cddc1d60 wangyifeng a/1000021 LOGIN FROM 192.168.10.103
+[2013-02-28 16:49:34,973 +0800] cddc1d60 wangyifeng a/1000021 'gerrit receive-pack --reviewer='\''yuyingjie'\'' '\''/7x27a/platform/packages/apps/HymostCit'\''' 4ms 415ms 0
+[2013-02-28 16:49:34,974 +0800] cddc1d60 wangyifeng a/1000021 LOGOUT
+[2013-02-28 16:55:40,606 +0800] 2d3379b6 yuanwei a/1000000 LOGIN FROM 192.168.10.91
+[2013-02-28 16:55:40,618 +0800] 2d3379b6 yuanwei a/1000000 'gerrit create-project 8x25q/platform/external/wlan_tool' 4ms 2ms 1
+[2013-02-28 16:55:40,650 +0800] 2d3379b6 yuanwei a/1000000 LOGOUT
+[2013-02-28 16:57:37,982 +0800] 4d234d66 yuanwei a/1000000 LOGIN FROM 192.168.10.91
+[2013-02-28 16:57:38,033 +0800] 4d234d66 yuanwei a/1000000 'gerrit create-project 8x25q/platform/external/wlan_tool' 4ms 42ms 0
+[2013-02-28 16:57:38,034 +0800] 4d234d66 yuanwei a/1000000 LOGOUT
+[2013-02-28 17:00:20,328 +0800] ed132115 yuanwei a/1000000 LOGIN FROM 192.168.10.91
+[2013-02-28 17:00:20,341 +0800] ed132115 yuanwei a/1000000 'gerrit create-project 8x25q/platform/external/wlan_tool' 4ms 4ms 1
+[2013-02-28 17:00:20,374 +0800] ed132115 yuanwei a/1000000 LOGOUT
+[2013-02-28 17:01:09,278 +0800] 0d0555ca yuanwei a/1000000 LOGIN FROM 192.168.10.91
+[2013-02-28 17:01:09,292 +0800] 0d0555ca yuanwei a/1000000 'gerrit create-project 8x25q/platform/external/wlan_tool' 4ms 4ms 1
+[2013-02-28 17:01:09,322 +0800] 0d0555ca yuanwei a/1000000 LOGOUT
+[2013-02-28 17:03:44,050 +0800] ad81a953 yuanwei a/1000000 LOGIN FROM 192.168.10.91
+[2013-02-28 17:03:44,104 +0800] ad81a953 yuanwei a/1000000 'gerrit create-project 8x25q/platform/external/wlan_tool' 4ms 44ms 0
+[2013-02-28 17:03:44,106 +0800] ad81a953 yuanwei a/1000000 LOGOUT
+[2013-02-28 17:10:25,738 +0800] cd897d7d yuanwei a/1000000 LOGIN FROM 192.168.10.91
+[2013-02-28 17:10:25,786 +0800] cd897d7d yuanwei a/1000000 'gerrit create-project 8x25q/platform/external/wlan_tool' 4ms 37ms 0
+[2013-02-28 17:10:25,787 +0800] cd897d7d yuanwei a/1000000 LOGOUT
+[2013-02-28 17:14:54,795 +0800] 6da2d102 yuanwei a/1000000 LOGIN FROM 192.168.10.91
+[2013-02-28 17:14:54,846 +0800] 6da2d102 yuanwei a/1000000 'gerrit create-project 8x25q/test' 4ms 42ms 0
+[2013-02-28 17:14:54,848 +0800] 6da2d102 yuanwei a/1000000 LOGOUT
+[2013-02-28 17:17:35,913 +0800] 8d9b85cc yuanwei a/1000000 LOGIN FROM 192.168.10.91
+[2013-02-28 17:17:35,963 +0800] 8d9b85cc yuanwei a/1000000 'gerrit create-project 8x25q/test1' 2ms 43ms 0
+[2013-02-28 17:17:35,964 +0800] 8d9b85cc yuanwei a/1000000 LOGOUT
